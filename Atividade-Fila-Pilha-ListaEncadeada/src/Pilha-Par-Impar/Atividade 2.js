@@ -6,7 +6,7 @@ function split(main, pair, odd){
     if (main.isEmpty()) {
         return undefined;
     }
-    for (let i = 5; i >= 0 && i <= main.size(); i--) {
+    for (let i = main.size(); i >= 0 && i <= main.size(); i--) {
         if(main.itens[i] % 2 == 0){
             pair.push(main.itens[i]);
             main.pop();
