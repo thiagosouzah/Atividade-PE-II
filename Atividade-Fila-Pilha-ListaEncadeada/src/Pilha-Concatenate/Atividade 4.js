@@ -1,5 +1,4 @@
-import { Stack1 } from "./stack1.js";
-import { Stack2 } from "./stack2.js";
+import { Stack } from "./stack.js";
 
 function concatenate(s1, s2){
     if (s1.isEmpty() && s2.isEmpty()) {
@@ -12,8 +11,8 @@ function concatenate(s1, s2){
     }
 }
 
-const stack1 = new Stack1();
-const stack2 = new Stack2();
+const stack1 = new Stack();
+const stack2 = new Stack();
 
 stack1.push(6); // 0
 stack1.push(5); // 1
