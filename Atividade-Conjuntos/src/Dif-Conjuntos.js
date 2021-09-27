@@ -15,5 +15,7 @@ console.log(setA.values());
 console.log(setB.values());
 
 const difAB = setA.difference(setB);
+const difBA = setB.difference(setA);
 
 console.log(difAB.values());
+console.log(difBA.values());
